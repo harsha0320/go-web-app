@@ -9,7 +9,7 @@ import (
 )
 
 func TestMain(t *testing.T) {
-	req, err := http.NewRequest("GET", "/home0", nil)
+	req, err := http.NewRequest("GET", "/home1", nil)
 	if err != nil {
 		t.Fatal(err)
 	}
